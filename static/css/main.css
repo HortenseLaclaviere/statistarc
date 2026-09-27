@@ -1,0 +1,23 @@
+:root {
+  --color-text: #1a1a1a;
+  --color-background: #ffffff;
+  --space-base: 1rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+main {
+  padding: var(--space-base);
+}
